@@ -192,7 +192,7 @@ namespace Filipenko
 
                 bool isSymmetrical = isSymmetric(matrix);
 
-                if (isSymmetrical) { return 3; }
+                if (isSymmetrical) { return 2; }
 
             }
             else
@@ -200,7 +200,7 @@ namespace Filipenko
                 return 0;
             }
 
-            return 2;
+            return 1;
 
         }
 
